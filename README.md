@@ -6,4 +6,5 @@ The select, and_operation, and or_operation functions allow the user to perform 
 
 For example, if the user enters "SELECT * FROM items WHERE category='Category A' AND in_stock > 0" in the select_entry field and clicks the "Select" button, the select function will execute the query and retrieve all items that belong to Category A and have more than 0 items in stock.
 Similarly, if the user enters "SELECT * FROM items WHERE price < 10 OR in_stock = 0" in the logical_entry field and clicks the "OR" button, the or_operation function will execute the query and retrieve all items that have a price less than 10 or are out of stock.
+
 Note that if you want to run this code, you will need to have a database file called "items.db" in the same directory as the Python script. You can create this file using the code at the beginning of the script, which creates a table called "items" and inserts some sample data.
